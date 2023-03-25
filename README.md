@@ -1,3 +1,5 @@
-## Guide
+## Mender.AI
 
-This guide covers the necessary bits. As the project evolves, it will only become more comprehensive
+The premier AI-assisted legacy code strategy guide.
+
+See the [manifesto](content/manifesto/_index.md) for what this is all about.
