@@ -1,5 +1,5 @@
 +++
-title = "Compose"
+title = "Mender.AI"
 [data]
 baseChartOn = 3
 colors = ["#627c62", "#11819b", "#ef7f1a", "#4e1154"]
@@ -11,7 +11,7 @@ title = "Projects"
 {{< block "grid-2" >}}
 {{< column >}}
 
-# Compose your Docs with **Ease**.
+# Mender.AI
 
 Compose is a lean `Hugo` domentation theme, inspired by [forestry.io](https://forestry.io/docs/welcome/).
 

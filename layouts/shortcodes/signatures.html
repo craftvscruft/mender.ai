@@ -1,0 +1,25 @@
+
+<style>
+   
+</style>
+
+<div>
+    <div class="name-list">
+        ({{ len $.Site.Data.names.signatures.list }})
+        {{ range $index, $element := $.Site.Data.names.signatures.list }}
+        
+            {{ if gt $index 0 }}
+            &#x2022;
+            {{ end }}
+            <span class="name">
+                {{ if .contact }}
+                    <a href="{{ .contact }}" alt="{{ .name }}" target="_blank">
+                        {{ .name }}
+                    </a>
+                {{ else }}
+                    {{ .name }}
+                {{ end }}
+            </span>
+        {{ end }}
+    </div>
+</div>
