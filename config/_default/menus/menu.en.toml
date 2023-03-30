@@ -1,15 +1,15 @@
 #  menu items
 [[main]]
-  name = "Manifesto"
+  name = "Home"
   weight = 1
-  url = "manifesto/"
+  url = "/"
+
+[[main]]
+  name = "Learn"
+  weight = 3
+  url = "learn/"
 
 [[main]]
   name = "Blog"
   weight = 5
   url = "blog/"
-
-[[main]]
-  name = "Learn"
-  weight = 2
-  url = "learn/"

@@ -2,7 +2,7 @@
 author: Ray Myers
 date: 2023-03-01
 title: The End of Programming (Again)
-image: ray-eyebrow.jpeg
+image: end-of-programming-again.jpg
 ---
 
 > What if machines could do the mechanical parts of what humans do?
