@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://mender.ai/"
 title = "Mender.AI"
 enableRobotsTXT = true
 # this example loads the theme as hugo module
