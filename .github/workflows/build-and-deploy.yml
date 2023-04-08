@@ -44,7 +44,7 @@ jobs:
         run: "npm ci || true"
       - name: Build
         run: |
-          npm run build
+          npm run docusaurus-build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

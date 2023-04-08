@@ -58,6 +58,11 @@ html[data-theme='dark'] {
   background: linear-gradient(90deg, rgba(42,96,184,1) 5%, rgba(100,146,221,1) 50%, rgba(42,96,184,1) 95%);
 }
 
+.theme-edit-this-page {
+  /* Hack */
+  display: none;
+}
+
 /* @media screen and (max-width: 996px) {
   :root {
     --ifm-font-size-base: 18px;
