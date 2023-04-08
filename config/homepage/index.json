@@ -1,29 +1,29 @@
 {
   "label": "Homepage",
-  "title": "Hello from Tina + Docusaurus!",
-  "description": "Description will go into a meta tag in <head />",
+  "title": "Mender.AI",
+  "description": "The premier AI-assisted legacy code strategy guide",
   "blocks": [
     {
       "document": "docs/intro.mdx",
-      "documentLabel": "Docusaurus Tutorial - 5min ⏱️",
+      "documentLabel": "Mechanized Mending Manifesto - 5min ⏱️",
       "_template": "hero"
     },
     {
       "items": [
         {
-          "title": "Easy to Use",
-          "description": "Docusaurus was designed from the ground up to be easily installed and         used to get your website up and running quickly.\n",
-          "image": "/img/undraw_docusaurus_mountain.svg"
+          "title": "Mending is The Future",
+          "description": "The future of software is synonymous with the future of software maintenance. For AI to advance the software industry, it must address the full lifecycle.\n",
+          "image": "/img/gfx/untangle-graphic.svg"
         },
         {
-          "title": "Focus on What Matters",
-          "description": "Docusaurus lets you focus on your docs, and we'll do the chores. Go ahead and move your docs into the docs directory.\n",
-          "image": "/img/undraw_docusaurus_tree.svg"
+          "title": "Better Together",
+          "description": "Large Language Models (LLMs) offer unique value, not a replacement for humanity. We must learn how to complement our capabilities with theirs as part of a healthy system.\n",
+          "image": "/img/gfx/symbiot-graphic.svg"
         },
         {
-          "title": "Powered by React",
-          "description": "Extend or customize your website layout by reusing React. Docusaurus can         be extended while reusing the same header and footer.\n",
-          "image": "/img/undraw_docusaurus_react.svg"
+          "title": "Get Involved",
+          "description": "Like what you hear? Subscribe for updates or be the next signator of the Mechanized Mending Manifesto!\n",
+          "image": "/img/gfx/extra-machine-graphic.svg"
         }
       ],
       "_template": "features"

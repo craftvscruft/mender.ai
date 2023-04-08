@@ -1,51 +1,92 @@
 ---
-title: Tutorial Intro
-description: Discover Docusaurus
+title: Intro - Philosophy
+description: The Mechanized Mending Manifesto
 tags:
-  - Demo
-  - Getting started
+  - Intro
+  - Philosophy
 ---
 
-# Tutorial Intro
+# The Mechanized Mending Manifesto
 
-Let's discover **Docusaurus in less than 5 minutes**.
+In software development, our greatest challenge is not our ability to produce new code, it’s in evolving the systems already in place.
 
-## Getting Started
+Large Language Models (LLMs) can now generate code in certain contexts. However, their true potential extends beyond this: LLMs can revolutionize the way we maintain and improve code.
 
-Get started by **creating a new site**.
+We seek to establish a harmony between human judgment, LLMs, and conventional algorithms,  each with their own strengths and weaknesses. For instance:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+* Conventional algorithms are tireless and predictable. They are not good at being versatile or goal-directed.
+* Humans are goal-directed and versatile. They are not good at being tireless or predictable.
+* LLMs are tireless and versatile. They are not good at being predictable or goal-directed.
 
-### What you'll need
+The future of software maintenance hinges upon novel combinations of these elements. By harnessing the best aspects of each, we will foster a more efficient, reliable, and effective software ecosystem that advances the public good.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Signatories
+* Ray Myers
+---
+## Appendix
 
-## Generate a new site
+### What NOT to do
+Many people hear "AI can write code now" and picture a naive workflow such as this:
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
+```mermaid
+graph LR
+    llm(LLM <br/> Generates code) --> prod(fa:fa-ban Recklessly Deploy)
+classDef orange fill:#764134,stroke:#333,stroke-width:4px;
+class prod orange
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Not only is this unsafe due to the unpredictable nature of LLMs, it doesn't address the actual bottlenecks in software development. Developers can already type fast enough. We waste time on re-work, troubleshooting, and confusion to name a few.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+* [IEEE 2015: I Know What You Did Last Summer - An Investigation of How Developers Spend Their Time](https://ieeexplore.ieee.org/document/7181430)
+* [IEEE 2019: Today was a Good Day:
+The Daily Life of Software Developers](https://www.microsoft.com/en-us/research/uploads/prod/2019/04/devtime-preprint-TSE19.pdf)
+* [Forbes 2022: Measuring And Managing Technical Debt](https://www.forbes.com/sites/forbestechcouncil/2022/08/10/measuring-and-managing-technical-debt)
+### Better Workflows
+Optimizing for the maintenance of systems, this is one potential process that leverages the strength of each component for a flow that is both efficient and safe.
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
+```mermaid
+graph LR
+    llm(LLM <br/> Suggests improvements) --> human(Human <br/> Screens suggestions)
+    human --> algo(Algorithm <br/> Applies changes) --> test(Tests) --> prod(Safely Deploy)
+classDef green fill:#2a600f,stroke:#333,stroke-width:2px;
+class prod green
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+Or suppose we need to modify some untested legacy code. We might bring in the LLM as a pair programming partner to help us quickly backfill the tests.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+```mermaid
+graph LR
+    human1(Human <br/> Finds untested code) --> llm(LLM <br/> Writes test cases) 
+    llm --> human2(Human <br/> Reviews tests & <br/> Updates tested code) 
+    human2 --> test(Tests) --> prod(Safely Deploy)
+classDef green fill:#2a600f,stroke:#333,stroke-width:2px;
+class prod green
+```
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Other viable setups will become apparent over time.
+
+### Strengths
+
+These are some of the relevant properties, not the only ones.
+
+| Strength      | Humans      | Algorithms | LLMs        |
+| ------------- | ----------- | -----------| ----------- |
+| Goal-directed | X           |            |             |
+| Versatile     | X           |            | X           |
+| Tireless      |             | X          | X           |
+| Predictable   |             | X          |             |
+
+### Glossary
+
+**Conventional Algorithms**: In this context, we’re referring to any program that does not utilize deep-learning neural networks.
+
+**Goal-directed**: Having beliefs and desires, and trying to reach those desires by acting in accordance with those beliefs (one of [many potential definitions](https://www.lesswrong.com/posts/cfXwr6NC9AqZ9kr8g/literature-review-on-goal-directedness)).
+
+**Versatile**: Proficient in a broad range of tasks and able to respond gracefully to the unforeseen.
+
+**Tireless**: Able to perform on demand at any time and in a highly scalable way.
+
+**Predictable**: Able to deterministically respond exactly as expected for a known range of inputs.
+
+### Thank you for reading!
+Would you like sign the manifesto or provide feedback? Come see us [on GitHub](https://github.com/craftvscruft/mender.ai).

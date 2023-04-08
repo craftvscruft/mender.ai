@@ -1,8 +1,9 @@
 {
   "label": "Settings",
+  "tagline": "The premier legacy code strategy guide for the AI age",
   "navbar": [
     {
-      "label": "Docs",
+      "label": "Guide",
       "link": "doc",
       "docLink": "docs/intro.mdx",
       "position": "left"
@@ -13,35 +14,22 @@
       "position": "left"
     },
     {
-      "label": "MDX Page",
-      "link": "page",
-      "docLink": "src/pages/Test-MDX-Page.mdx",
-      "pageLink": "src/pages/Test-MDX-Page.mdx",
-      "position": "left"
-    },
-    {
-      "label": "Docusaurus GitHub",
+      "label": "Source Code",
       "link": "external",
-      "externalLink": "https://github.com/facebook/docusaurus",
-      "position": "right"
-    },
-    {
-      "label": "Tina",
-      "link": "external",
-      "externalLink": "https://tina.io/",
+      "externalLink": "https://github.com/craftvscruft/mender.ai",
       "position": "right"
     }
   ],
   "logo": {
-    "alt": "Tina",
-    "src": "/img/tina-icon.svg"
+    "alt": "Mender.AI",
+    "src": "/img/blue-min-ai-logo.svg"
   },
-  "title": "Tinasaurus",
+  "title": "Mender.AI",
   "footer": {
     "style": "dark",
     "links": [
       {
-        "title": "Docs",
+        "title": "Guide",
         "items": [
           {
             "label": "Introduction",
@@ -51,21 +39,16 @@
         ]
       },
       {
-        "title": "Community",
+        "title": "Social",
         "items": [
           {
-            "label": "Stack Overflow",
-            "href": "https://stackoverflow.com/questions/tagged/docusaurus",
-            "_template": "external"
-          },
-          {
-            "label": "Discord",
-            "href": "https://discordapp.com/invite/docusaurus",
+            "label": "YouTube",
+            "href": "https://www.youtube.com/channel/UC4nEbAo5xFsOZDk2v0RIGHA",
             "_template": "external"
           },
           {
             "label": "Twitter",
-            "href": "https://twitter.com/docusaurus",
+            "href": "https://twitter.com/lambdapocalypse",
             "_template": "external"
           }
         ]
@@ -79,13 +62,13 @@
           },
           {
             "label": "GitHub",
-            "href": "https://github.com/facebook/docusaurus",
+            "href": "https://github.com/craftvscruft/mender.ai",
             "_template": "external"
           }
         ]
       }
     ],
-    "copyright": "My Project, Inc. Built with Docusaurus."
+    "copyright": "Craft vs Cruft"
   },
-  "url": "https://tinasaurus.vercel.app/"
+  "url": "https://mender.ai"
 }

@@ -86,13 +86,17 @@ const formatNavbarItem = (item, subnav = false) => {
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: docusaurusData.title || "My Site",
-  tagline: docusaurusData.tagline || "Dinosaurs are cool",
-  url: docusaurusData.url || "https://tinasaurus.vercel.app/",
+  title: docusaurusData.title,
+  tagline: docusaurusData.tagline,
+  url: docusaurusData.url,
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+  favicon: "favicons/favicon.ico",
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -108,7 +112,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: docusaurusData.url + "/admin/#/collections/doc",
+          editUrl: docusaurusData.url + "/admin/#/collections/guide",
         },
         blog: {
           showReadingTime: true,
@@ -151,6 +155,11 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      }
     }),
 };
 

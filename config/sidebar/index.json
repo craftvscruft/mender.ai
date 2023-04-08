@@ -6,77 +6,36 @@
       "_template": "doc"
     },
     {
-      "title": "Tutorial - Basics",
+      "title": "Learn",
       "link": "generated",
       "items": [
         {
-          "document": "docs/tutorial-basics/create-a-page.mdx",
+          "document": "docs/learn/big-ideas.mdx",
           "_template": "doc"
         },
         {
-          "document": "docs/tutorial-basics/create-a-document.mdx",
+          "document": "docs/learn/ai-skills.mdx",
           "_template": "doc"
         },
         {
-          "document": "docs/tutorial-basics/create-a-blog-post.mdx",
-          "_template": "doc"
-        },
-        {
-          "document": "docs/tutorial-basics/deploy-your-site.mdx",
-          "_template": "doc"
-        },
-        {
-          "document": "docs/tutorial-basics/congratulations.mdx",
+          "document": "docs/learn/legacy-code-skills.mdx",
           "_template": "doc"
         }
       ],
       "_template": "category"
     },
     {
-      "title": "Tutorial - Extras",
+      "title": "Tools",
       "link": "generated",
       "items": [
         {
-          "document": "docs/tutorial-extras/manage-docs-versions.mdx",
-          "_template": "doc"
-        },
-        {
-          "document": "docs/tutorial-extras/translate-your-site.mdx",
+          "document": "docs/tools/intro.mdx",
           "_template": "doc"
         }
-      ],
-      "_template": "category"
-    },
-    {
-      "title": "Nested Link",
-      "link": "none",
-      "items": [
-        {
-          "title": "Level 2",
-          "link": "none",
-          "items": [
-            {
-              "title": "Level 3",
-              "link": "none",
-              "items": [
-                {
-                  "document": "docs/test-page.mdx",
-                  "label": "",
-                  "_template": "doc"
-                }
-              ],
-              "_template": "category"
-            }
-          ],
-          "_template": "category"
-        }
-      ],
-      "_template": "category"
-    },
-    {
-      "title": "Tina.io",
-      "href": "https://tina.io/",
-      "_template": "link"
-    }
+        
+        ],
+        "_template": "category"
+      }
+
   ]
 }
