@@ -7,7 +7,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 export const Hero = ({ data, index }) => {
   const { siteConfig } = useDocusaurusContext();
-
+  
   return (
     <header
       key={index}
@@ -32,6 +32,10 @@ export const Hero = ({ data, index }) => {
             </Link>
           </div>
         )}
+        {/* <p className="get-updates">
+          <Link to="#get-updates">Get Updates</Link>
+        </p> */}
+        
       </div>
     </header>
   );

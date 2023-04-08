@@ -14,6 +14,12 @@
       "position": "left"
     },
     {
+      "label": "Get Updates",
+      "link": "external",
+      "externalLink": "#get-updates",
+      "position": "right"
+    },
+    {
       "label": "Source Code",
       "link": "external",
       "externalLink": "https://github.com/craftvscruft/mender.ai",

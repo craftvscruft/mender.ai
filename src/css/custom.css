@@ -91,3 +91,12 @@ html[data-theme='dark'] {
 } */
 
 /* https://theochu.com/docusaurus/styling/ */
+
+#mc_embed_signup .mc-field-group {
+  float: left;
+  display: block;
+}
+
+.hero .get-updates {
+  margin-top: 10px;
+}
