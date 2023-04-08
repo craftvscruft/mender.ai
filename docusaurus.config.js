@@ -121,6 +121,9 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+        gtag: {
+          trackingID: 'G-F3QXGFT1SP'
+        },
       }),
     ],
   ],
@@ -161,6 +164,12 @@ const config = {
         respectPrefersColorScheme: false,
       }
     }),
+    scripts: [
+      {
+        "src": "/js/chimp-signup.js",
+        "id": "mcjs"
+      }
+    ],
 };
 
 module.exports = config;

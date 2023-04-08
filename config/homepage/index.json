@@ -1,7 +1,7 @@
 {
   "label": "Homepage",
   "title": "Mender.AI",
-  "description": "The premier AI-assisted legacy code strategy guide",
+  "description": "The premier legacy code strategy guide for the AI age",
   "blocks": [
     {
       "document": "docs/intro.mdx",
