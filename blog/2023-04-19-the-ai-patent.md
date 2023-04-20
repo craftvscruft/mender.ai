@@ -10,7 +10,7 @@ tags:
 In 2021, the [DABUS](https://en.wikipedia.org/wiki/DABUS) system created by Dr. Stephen Thaler became the world's first machine to be granted a patent. This patent, "**Food container and devices and methods for attracting enhanced attention**" was accepted in South Africa after being denied by Australia, the European Patent Office, the United Kingdom, and the United States. However, these rejections were due to legal requirements of the inventor being a natural person, not a judgement on the quality of the invention itself.
 
 For a thorough review of the legal issues, see [A study on inventorship
-in inventions involving AI activity](http://documents.epo.org/projects/babylon/eponet.nsf/0/3918F57B010A3540C125841900280653/$File/Concept_of_Inventorship_in_Inventions_involving_AI_Activity_en.pdf) by Dr Noam Shemtov. For now, let's take a look at the invention with our friend ChatGPT, shall we?
+in inventions involving AI activity](http://documents.epo.org/projects/babylon/eponet.nsf/0/3918F57B010A3540C125841900280653/$File/Concept_of_Inventorship_in_Inventions_involving_AI_Activity_en.pdf) by Dr. Noam Shemtov. For now, let's take a look at the invention with our friend ChatGPT, shall we?
 
 ---
 **Ray:** What is this [patent application](https://patents.google.com/patent/WO2020079499A1/en) describing? *[Abstract omitted]*
