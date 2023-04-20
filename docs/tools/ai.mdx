@@ -1,0 +1,56 @@
+---
+title: AI Tools
+---
+# AI Tools
+
+This page is for the emerging family of tools incorporating Artificial Intelligence techniques such as LLMs (Large Language Models).
+
+This is field is changing fast, so check back for updates and feel free to [submit](https://github.com/craftvscruft/mender.ai/issues/1) your favorites.
+
+## Assistants
+
+AI coding assistants operate as editor plugins offering auto-complete style suggestions during development. Gergely Orosz has a helpful [comparison](https://twitter.com/GergelyOrosz/status/1648705964659417090).
+
+Open Source
+
+* [GPT-Code-Clippy](https://github.com/CodedotAl/gpt-code-clippy)
+* [SourceGraph Cody](https://docs.sourcegraph.com/cody)
+* [Second Mate for Emacs](https://github.com/samrawal/emacs-secondmate)
+
+Commercial
+
+* [Tabnine](https://www.tabnine.com/)
+* [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/)
+* [GitHub Copilot](https://github.com/features/copilot)
+
+## Doc Gen
+* [GptDoc](https://github.com/matiasvlevi/gptdoc)
+* [Craft vs Cruft episode](https://youtu.be/DJ2-Xfd95YM) - Experimenting with GPT3.5 generating Doxygen comments for the Duke Nukem 3D code
+
+## Code Gen
+* [Parsel](https://github.com/ezelikman/parsel) - Generate complex programs with language models by specifying components and test cases
+* [Code Wand](https://t.co/bGAVrOYhgn) (currently only [demos](https://twitter.com/CodewandAI/status/1642956482806435841))
+* [SourceAI](https://sourceai.dev)
+
+### Test Gen
+
+* [Codium](https://www.codium.ai/blog/writing-tests-for-legacy-code/)
+
+### Code-trained Models
+
+* [Santacoder](https://huggingface.co/bigcode/santacoder)
+* [Codex](https://openai.com/blog/openai-codex)
+* [CodeGen](https://github.com/salesforce/CodeGen)
+
+## Architecture Mining
+
+* [FlowGPT](https://github.com/nilooy/flowgpt) - Generate flow charts from code
+
+## Semantic Code Search
+
+Semantic search attempts to consider the contextual meaning of the terms, as opposed to traditional lexical search which looks for literal matches of the query words and simple variants. In the context of language models, this is usually implemented with [embeddings](https://www.sbert.net/examples/applications/semantic-search/README.html), but this has not been widely adopted for source code.
+
+* [GitHub research blog](https://github.blog/2018-09-18-towards-natural-language-semantic-code-search)
+* [CodeSearchNet](https://github.blog/2019-09-26-introducing-the-codesearchnet-challenge) - DataSet and Benchmark for training semantic code search models
+* [sem CLI tool](https://github.com/sturdy-dev/semantic-code-search)
+* [Source Graph](https://about.sourcegraph.com/blog/getting-started-with-sourcegraph) - A leader in corporate code search. Here they use 'semantic' to mean 'language-aware', not using embeddings.

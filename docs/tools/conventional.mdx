@@ -1,0 +1,58 @@
+---
+title: Conventional Tools
+---
+# Conventional Tools
+
+AI may be the focus of this guide, but it's NOT a magic wand. There are things that good old-fashioned deterministic algorithms will always do best!
+
+## Static analysis
+
+* [SemGrep](https://semgrep.dev) - Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.
+### Linters
+* [Ruff](https://blog.jerrycodes.com/ruff-the-python-linter) - Python linter
+* [Spellchecker CLI] - Run this on your markdown docs :)
+### Dependency Analysis
+* [Freshli](https://github.com/corgibytes/freshli-cli) - Display historical metrics about a project's dependencies (Supports Java/Maven)
+
+## Refactoring
+
+Modern IDEs such as the JetBrains suite and Visual Studio (especially with [extensions](https://www.jetbrains.com/resharper-cpp/documentation/resharper_cpp_vs_visual_assist.html)) have excellent refactoring support for languages including Java and C#. Here, we are focusing on tools that can be invoked outside of the editor.
+
+* [OpenRewrite](https://docs.openrewrite.org) - Large-scale automated source code refactoring, focused on Java
+* [jscodeshift](https://github.com/facebook/jscodeshift) - js/ts codemod
+* [Putout](https://github.com/coderaiser/putout) - JavaScript Linter, pluggable and configurable code transformer based on Babel
+* [Pyupgrade](https://github.com/asottile/pyupgrade) - A tool (and pre-commit hook) to automatically upgrade syntax for newer versions of the language.
+
+
+## Doc Extraction
+
+These extract API documentation in HTML and other formats from code comments.
+
+* [Swaggar](https://swagger.io/docs) - for REST APIs based on the OpenAPI Specification.
+* [Doxygen](https://www.doxygen.nl) (C, C++, C♯, D, Fortran, IDL, Java, Objective-C, Perl, PHP, Python, Tcl, and VHDL)
+  * [Modern C++ doc stack: Doxygen, Sphinx, Breathe, Exhale](https://itnext.io/daily-bit-e-of-c-modern-documentation-tools-9b96ba283732)
+* [GhostDoc](https://submain.com/ghostdoc) (C#, Visual Basic, C++/CLI, JavaScript)
+* [Javadoc](oracle.com/technical-resources/articles/java/javadoc-tool.html) (Java)
+* [Godoc](https://pkg.go.dev/golang.org/x/tools/cmd/godoc) (Go)
+* [Rustdoc](https://doc.rust-lang.org/stable/rustdoc/) (Rust)
+* [pdoc](https://pdoc.dev) (Python)
+
+## Language Translation
+Use Abstract Syntax Tree (AST) transformation to migrate a codebase from one language to another.
+
+* [C2V](https://github.com/vlang/c2v) Converting from C/C++ to the language V
+* [Java to Kotlin](https://developer.android.com/codelabs/java-to-kotlin)
+
+## Code Visualization
+
+* [Emerge](https://github.com/glato/emerge) - Graph-based code visualization in the browser
+
+## Architecture as Code
+
+Some teams prefer to maintain design diagrams as text in source control so they can more easily be kept up to date.
+
+* [C4 Model](https://c4model.com)
+* [Structurizr](http://structurizr.com)
+* [PlantUML](https://plantuml.com)
+* [MermaidJS](https://mermaid.js.org)
+

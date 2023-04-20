@@ -31,6 +31,14 @@
         {
           "document": "docs/tools/intro.mdx",
           "_template": "doc"
+        },
+        {
+          "document": "docs/tools/ai.mdx",
+          "_template": "doc"
+        },
+        {
+          "document": "docs/tools/conventional.mdx",
+          "_template": "doc"
         }
         
         ],
