@@ -92,6 +92,11 @@ html[data-theme='dark'] {
 
 /* https://theochu.com/docusaurus/styling/ */
 
+@media screen and (max-width: 500px) {
+  #mc_embed_signup.container  {
+    width: auto;
+  }
+}
 #mc_embed_signup .mc-field-group {
   float: left;
   display: block;
