@@ -32,9 +32,6 @@ export const Hero = ({ data, index }) => {
             </Link>
           </div>
         )}
-        {/* <p className="get-updates">
-          <Link to="#get-updates">Get Updates</Link>
-        </p> */}
         
       </div>
     </header>

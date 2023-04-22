@@ -16,7 +16,7 @@
     {
       "label": "Get Updates",
       "link": "external",
-      "externalLink": "#get-updates",
+      "externalLink": "/#get-updates",
       "position": "right"
     },
     {
