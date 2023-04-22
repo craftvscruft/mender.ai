@@ -4,3 +4,54 @@ title: AI Skills
 
 * [Learn Prompting](https://learnprompting.org/docs/intro) - Prompt Engineering tutorial
 * [Dive into Deep Learning](https://www.d2l.ai) - Interactive deep learning book with code, math, and discussions. Implemented with PyTorch, NumPy/MXNet, JAX, and TensorFlow
+* [Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html) - Article by Chip Huyen on common challenges 
+* [Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp](https://github.com/norvig/paip-lisp) - 1992 book by Peter Norvig, code and PDF available. Beautiful survey of the history of AI techniques.
+
+## What is AI?
+
+What we consider AI is something of a moving target. We use AI to refer to the most advanced programs we know how to make. A program that can play checkers was once cutting-edge AI. Now we would think of it as a "simple" Minimax search algorithm. Recommendation systems were an AI problem, now we tend to just call them "Recommendation Engines". There may come a day when we understand LLMs well enough that they are "just LLMs", only associated with AI for historical reasons.
+
+In the current news cycle, people are very excited about GPT - and with good reason. However, we should not consider GPT synonymous with AI. It is distinguished by being versatile, not by being the best we have for every task. This is roughly where GPT falls in the conceptual space.
+
+```mermaid
+graph TD
+
+  AI([Artificial Intelligence])
+  ML([Machine Learning])
+  NN([Neural Networks])
+  DL([Deep Learning])
+  LLM([Large Language Models])
+  NLP([Natural Language Processing])
+  GPT([Generative Pre-trained Transformers])
+  
+  AI-->ML-->NN-->DL-->LLM-->GPT
+  AI-->NLP-->LLM
+```
+Adding more sub-fields:
+
+```mermaid
+graph TD
+
+  AI([Artificial Intelligence])
+  ML([Machine Learning])
+  NN([Neural Networks])
+  DL([Deep Learning])
+  LLM([Large Language Models])
+  NLP([Natural Language Processing])
+  KR([Knowledge Representation])
+  Exp([Expert Systems])
+  LP([Logic Programming])
+  Per([Perception])
+  MV([Machine Vision])
+  SP([Speech Recognition])
+  Robo([Robotics])
+
+  AI-->ML-->NN-->DL-->LLM
+  AI-->NLP-->LLM
+  AI-->Robo
+  AI-->KR-->Exp
+  KR-->LP
+  AI-->Per-->MV
+  Per-->SP
+```
+
