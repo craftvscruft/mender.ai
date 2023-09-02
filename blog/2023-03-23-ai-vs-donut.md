@@ -88,3 +88,5 @@ Add comment: Before the for loop, add the comment: "Search for a character in le
 Convert ternary to if: Replace the ternary operator in the loop with an if-else statement for better readability.
 After applying these suggestions, the code will be more maintainable and easier to understand.
 ```
+
+*Can we write to you from time to time? [Get updates](/#get-updates).*

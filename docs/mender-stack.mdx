@@ -1,0 +1,50 @@
+---
+title: The Mender Stack
+---
+
+The Mender Stack is a suite of tools serving as a reference implementation of the principles in the [Mechanized Mending Manifesto](/docs/intro).
+
+*Status*: These are early sketches based on gaps we see in the ecosystem. As such, there's plenty to learn from but no polished experience ready. All released original code is Free and Open Source under the Apache-2.0 license. 
+
+Questions and contributions are most welcome!
+
+
+
+## Tools
+
+| Tool     | Role    | Language | Note   | Availability|
+| -------- | ------- | -------- | ------ | ------ |
+| Mend  | Orchestration / UX | Rust | Scripted refactoring of legacy code | [GitHub](https://github.com/craftvscruft/mend)  |
+| Untangler | Engine | Java | Multi-language refactoring CLI | [GitHub](https://github.com/craftvscruft/untangler) |
+| MenderBot | AI Wrapper | Python | AI enabled CLI for maintenance tasks | [GitHub](https://github.com/craftvscruft/menderbot) |
+| RenameGPT | AI Wrapper | n/a | Fine-tuned GPT-3.5 model for renaming variables | Unreleased |
+| MenderLab | UX | Rust + JS | Demo of AI-driven refactoring | Unreleased |
+
+
+## Design
+
+We identify three categories of parties involved in software development.
+
+- Humans
+- Conventional Algorithms
+- Large Language Models
+
+LLMs do not replace humans, in fact none of these are a replacement for any other - they have different strengths. As always, an effective system depends on how the components work together. Components will fall naturally into on or more of these roles.
+
+- **UX**: Talks to humans
+- **Orchestrators**: Coordinates workflows
+- **Engines**: Perform deterministic calculations and actions
+- **AI Wrappers**: Facades managing LLM communication
+
+## Guidelines
+
+### Automation friendly
+Unless a tool is almost exclusely in the UX role (like an editor), it should be usable both by people and by other tools. In other words, commands should be runnable by other commands. They should use return codes to indicate failure and have options to enable structured output such as JSON. The Kubernetes CLI [kubectl](https://kubernetes.io/docs/reference/kubectl) is a great example of this.
+
+### Distribution
+
+Strive for simplest possible installation process, ideally via a single static executable.
+
+### Responsible AI
+
+Treat LLM output as untrusted. Do not send code to third parties without explicit user consent per codebase.

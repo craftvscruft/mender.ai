@@ -25,7 +25,7 @@
       "_template": "category"
     },
     {
-      "title": "Tools",
+      "title": "Tool Catalog",
       "link": "generated",
       "items": [
         {
@@ -40,10 +40,12 @@
           "document": "docs/tools/conventional.mdx",
           "_template": "doc"
         }
-        
         ],
         "_template": "category"
+      },
+      {
+        "document": "docs/mender-stack.mdx",
+        "_template": "doc"
       }
-
   ]
 }

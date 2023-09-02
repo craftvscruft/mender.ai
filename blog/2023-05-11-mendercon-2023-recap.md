@@ -181,3 +181,5 @@ These notes were gathered from the live Miro board, if someone else who attended
   * [Mechanized Mending Manifesto](https://mender.ai/docs/intro/)
   * [Generating Documentation with GPT](https://www.youtube.com/watch?v=DJ2-Xfd95YM) - video
 * Moving from mender IC developer to manager (Miriam Retka)
+
+*Can we write to you from time to time? [Get updates](/#get-updates).*

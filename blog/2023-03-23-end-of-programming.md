@@ -34,3 +34,5 @@ Of course not, that’s why we continue to refine our tool-chains and new langua
 Just understand that we’ve seen claims of revolutions in coding productivity/elimination coupled with impressive demos regularly for over 50 years. The ideas that made a dent were few and far between, and even then the realistic implications were different than we would have expected.
 
 So what have you got?
+
+*Can we write to you from time to time? [Get updates](/#get-updates).*

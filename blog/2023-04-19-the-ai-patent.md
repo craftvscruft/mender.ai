@@ -63,3 +63,5 @@ This particular patent application was created to demonstrate that machines can 
 Thanks, GPT4.
 
 > You're welcome! If you have any more questions or need further assistance, please feel free to ask. I'm here to help!
+
+*Can we write to you from time to time? [Get updates](/#get-updates).*

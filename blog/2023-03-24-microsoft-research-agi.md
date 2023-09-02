@@ -21,3 +21,5 @@ As the paper demonstrates, GPT is also capable of interacting with other tools. 
 So with augmented LLMs, are we finally on a path that will lead to AGI? A fair portion of the software community is on "yellow alert" for that possibility. It’s also well worth listening to AI-skeptics like [Grady Booch](https://www.infoworld.com/article/3689914/the-philosopher-a-conversation-with-grady-booch.html). The true value will only be realized once the hype cycle dies down.
 
 As for me, I’ll put it this way. The [Turing Test](https://en.wikipedia.org/wiki/Turing_test) is dead and buried. LLMs are "good enough" at such a broad range of tasks that we will need to redraw our concept of AGI around their weaknesses.
+
+*Can we write to you from time to time? [Get updates](/#get-updates).*
