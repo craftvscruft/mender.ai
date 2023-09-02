@@ -88,7 +88,11 @@ We now have an unprecendented set of safegaurds for LLM-driven changes:
 
 ## Can this work?
 
-It already does. While the prototype's capabilities are very limited (it does renames in C), early experiments suggest this is the first AI developer agent that can update code in a bug-free way. It may choose a bad variable name here and there, but it **does not break the code**.
+It already does. 
+
+[![asciicast](https://asciinema.org/a/606015.svg)](https://asciinema.org/a/606015)
+
+While the prototype's capabilities are very limited (it does renames in C), early experiments suggest this is the first AI developer agent that can update code in a bug-free way. It may choose a bad variable name here and there, but it **does not break the code**.
 
 I'll be releasing more pieces into [The Mender Stack](/docs/mender-stack) as I'm able to clean them up and explain them properly. It will take a significant but very tractable amount of work to implement polished support for the core refactorings in several major languages. If you're interested in helping out I'd love to [hear from you](https://www.linkedin.com/in/cadrlife/).
 
