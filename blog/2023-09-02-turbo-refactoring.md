@@ -43,14 +43,13 @@ Instead of trying to understand an entire large block of code at once, we can ta
 
 ### The versatility of a refactoring CLI
 
-With a small handful of features per language, a workable command-line refactoring engine can be created, see [Untangler](https://github.com/craftvscruft/untangler) for an early prototype. Liberating this functionality from IDEs allows us to use it in several contexts:
+With a small handful of core recipes supported per language, we can create a workable command-line refactoring tool(see [Untangler](https://github.com/craftvscruft/untangler) for an early prototype). Liberating this functionality from IDEs allows opens up many possibilities:
 
 - Restricted editing UI's ("Uneditors" like Refactoring Browser)
 - Scripted code migrations
 - AI-driven refactoring
 - Easily give more editors refactoring support (YAY!)
 
-*BTW if editor-adjacent tooling interests you, you will enjoy learning about [Language server protocol](https://langserver.org/).*
 
 ## Insanely small steps
 So we started by saying we'd teach machines the safest way we know how to develop. What is that, [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)? Let's go even further. Let's go all the way to [TCR](https://www.infoq.com/articles/test-commit-revert/), which has been called "TDD on steroids"!
@@ -76,6 +75,7 @@ Here's an example of how this could work end-to-end, other variations are possib
 	5. Commit
 4. Create Pull Request to Trunk
 5. Human decides whether to merge the Pull Request
+
 
 We now have an unprecendented set of safegaurds for LLM-driven changes:
 
