@@ -2,9 +2,9 @@
 
 The premier legacy code strategy guide for the AI age.
 
-See the [manifesto](https://mender.ai/docs/intro) for what this is all about.
+See the [manifesto](https://mender.ai/docs/intro) for what this is all about. This repo is for the website, see [Mender Stack](https://mender.ai/docs/mender-stack) for tools related to this initiative.
 
-This website is built using [Docusaurus 2](https://docusaurus.io/). [TinaCMS](https://tina.io/) is installed but currently disabled.
+This website is built using [Docusaurus 2](https://docusaurus.io/).
 
 ### Installation
 
