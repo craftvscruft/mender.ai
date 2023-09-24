@@ -2,7 +2,7 @@
 authors: [raymyers]
 slug: ai-vs-donut-gpt4
 title: AI vs Donut! Using GPT4 to De-Obfuscate C
-image: refactor-logo-ioccc-sloan.png
+image: /img/refactor-logo-ioccc-sloan.png
 tags:
   - ioccc
   - refactoring

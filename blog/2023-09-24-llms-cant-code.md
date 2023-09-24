@@ -2,6 +2,7 @@
 authors: [raymyers]
 slug: llms-cant-code
 title: LLMs Can't Code
+image: /img/toaster-fire.png
 tags:
   - chatgpt
   - reasoning
@@ -14,9 +15,9 @@ tags:
 
 This is very common issue right now, and seems somewhat inevitable. Maybe this'll help.
 
-## 1. Practical Answer
+## A Practical Answer
 
-I think of it like using Stack Overflow. There is a category of isolated problems that I've learned SO will help me more more than waste my time, and it's awesome at those. It helps even though we can't trust that copying the answer directly into the context. It might not be correct, even compile, or be licensed to allow use.
+I think of it like using Stack Overflow. There is a category of isolated problems that I've learned Stack Overflow will help me more more than waste my time, and it's awesome at those. It helps even though we can't trust that copying the answer directly into the context. It might not be correct, even compile, or be licensed to allow use.
 
 But we understand the provenance of the solution is dubious and it still helps us reach a solution faster, getting past stumbling blocks. When I've used LLMs (Large Language Models) like ChatGPT successfully during coding, it's a similar process.
 
@@ -27,21 +28,22 @@ Our friend Nicolas Carlo has some more detailed articles on usage scenarios.
 
 The [Cursor](https://www.cursor.sh) editor has also made progress creating a more ergonomic integration than other assistants.
 
-## 2. The Deeper Problem
+## The Deeper Problem
 
 This is controversial, I actually believe **LLMs can't code**.
 
-Coding is not a single task. It's a big bag of different types of cognitive tasks. Some parts are, we might say, language-oriented tasks that map very well to an LLM's strengths.
+Coding is not a single task. It's a big bag of different types of cognitive tasks. Some parts are, we might say, language-oriented and map very well to an LLM's strengths.
 
 
 
 ### LLM-Easy
 
-Language models suggest pretty good variable names. They can identify code smells. They can lookup many (mostly real) libraries that relate semantically to our questions. These are examples of well-trodden NLP (Natural Language Processing) tasks and we could consider them "LLM-Easy".
+Language models suggest pretty good variable names. They can identify code smells. They can lookup many (mostly real) libraries that relate semantically to our questions. These are examples of well-trodden NLP (Natural Language Processing) tasks that we could label "LLM-Easy".
 
 * Summarization
 * Classification
 * Semantic Search
+* ...
 
 ### LLM-Hard
 

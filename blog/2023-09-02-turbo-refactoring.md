@@ -2,7 +2,7 @@
 authors: [raymyers]
 slug: turbo-refactoring
 title: Turbo Refactoring
-image: refactor-logo-ioccc-sloan.png
+image: /img/refactor-logo-ioccc-sloan.png
 tags:
   - ioccc
   - refactoring

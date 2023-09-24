@@ -2,7 +2,7 @@
 authors: [raymyers]
 slug: microsoft-research-agi
 title: Microsoft Research Sees AGI Holy Grail in GPT4 
-image: sparks-of-agi.png
+image: /img/sparks-of-agi.png
 tags:
   - agi
   - microsoft

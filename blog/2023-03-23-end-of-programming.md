@@ -2,7 +2,7 @@
 authors: [raymyers]
 title: The End of Programming (Again)
 slug: end-of-programming-again
-image: end-of-programming-again.jpg
+image: /img/end-of-programming-again.jpg
 ---
 
 > What if machines could do the mechanical parts of what humans do?
