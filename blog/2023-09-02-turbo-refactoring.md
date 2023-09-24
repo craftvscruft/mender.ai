@@ -88,7 +88,7 @@ We now have an unprecendented set of safegaurds for LLM-driven changes:
 
 ## Can this work?
 
-It already does. 
+It already does.
 
 [![asciicast](https://asciinema.org/a/606015.svg)](https://asciinema.org/a/606015)
 
