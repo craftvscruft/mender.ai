@@ -21,10 +21,11 @@ I think of it like using Stack Overflow. There is a category of isolated problem
 
 But we understand the provenance of the solution is dubious and it still helps us reach a solution faster, getting past stumbling blocks. When I've used LLMs (Large Language Models) like ChatGPT successfully during coding, it's a similar process.
 
-Our friend Nicolas Carlo has some more detailed articles on usage scenarios.
+For some more detailed guidance, our friends Daniel and Nicolas have some articles getting into specific use cases:
+* [19 Tips for Coding Faster with ChatGPT](https://www.linkedin.com/pulse/19-tips-coding-faster-chatgpt-daniel-feldman) - Daniel Feldman
+* [Can AI help me refactor legacy code?](https://understandlegacycode.com/blog/can-ai-refactor-legacy-code) - Nicolas Carlo
+* [Can AI help me write tests on legacy code?](https://understandlegacycode.com/blog/can-ai-write-tests-on-legacy-code) - Nicolas Carlo
 
-* [Can AI help me refactor legacy code?](https://understandlegacycode.com/blog/can-ai-refactor-legacy-code)
-* [Can AI help me write tests on legacy code?](https://understandlegacycode.com/blog/can-ai-write-tests-on-legacy-code)
 
 The [Cursor](https://www.cursor.sh) editor has also made progress creating a more ergonomic integration than other assistants.
 
