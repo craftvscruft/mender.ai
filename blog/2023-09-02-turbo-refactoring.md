@@ -32,7 +32,7 @@ We could wait for bigger shinier models to address this, but possibly LLMs are j
 Where does this leave us? Untrusted output must be filtered through an intermediary, typically a human reviewer or a vetted tool with limited actions. So far, most approaches involve the former - people manually code review and debug the raw LLM output. Are there other options? Can we manipulate code *without directly editing it*? Funny you should ask...
 ## Return of Refactoring Browser
 
-In the SmallTalk era, a tool called [Refactoring Browser](https://wiki.c2.com/?RefactoringBrowser) innovated syntax-aware automated refactoring. The right-click refactoring in today's IDEs like IntelliJ are descendants, but a unique aspect of Refactoring Browser was that is could *only* refactor, not act as a text editor. In a sense, what it couldn't do was as important as what it could.
+A tool called [Refactoring Browser](https://wiki.c2.com/?RefactoringBrowser) introduced syntax-aware automated refactoring in commerical tools in 1999, [building on](https://wiki.c2.com/?HistoryOfRefactoring) research started by Ralph Johnson and Bill Opdyke in 1990. The right-click refactoring in today's IDEs like IntelliJ are descendants, but a unique aspect of Refactoring Browser was that is could *only* refactor, not act as a text editor. In a sense, what it couldn't do was as important as what it could.
 ### We can rebuild it
 
 Could we build another, more automation-friendly Refactoring Browser today? How many transformations would we need to support?
