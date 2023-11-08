@@ -9,13 +9,13 @@ tags:
   - limitations
 ---
 
-Yesterday, OpenAI held their first DevDay with some of their biggest releases since GPT-4 in March. [full announcements](https://openai.com/blog/new-models-and-developer-products-announced-at-devday) and [keynote livestream](https://www.youtube.com/watch?v=U9mJuUkhUzk). In this post we'll give first thoughts on the implications for software development and maintenance.
+Yesterday, OpenAI held their first DevDay with some of their biggest releases since GPT-4 in March! Full details are in the the [official announcement](https://openai.com/blog/new-models-and-developer-products-announced-at-devday) and [keynote stream](https://www.youtube.com/watch?v=U9mJuUkhUzk). In this post we'll give first thoughts on the implications for software development and maintenance.
 
 # GPT-4 Turbo
 
 Some of the biggest limitations of GPT-4 were that it was slow, expensive, couldn't fit enough data in the context window, and had a knowledge cut off of January 2022. All of those have been significantly addressed. Short of eliminating halucinations (which may be intractable), we couldn't have asked for much more in this release.
 
-While this is not "GPT-5", whatever that may look like, this execution on so many key frustrations at once is a huge move. As the [Mechanized Mending Manifesto](https://mender.ai/docs/intro) hints, we have much to learn about taking advantage of Large Language Models as components in a system before our main limitation becomes the sophistication of the model itself.
+While this is not "GPT-5", whatever that may look like, it was a huge move to execute on so many key frustrations at once. As the [Mechanized Mending Manifesto](https://mender.ai/docs/intro) hints, we have much to learn about taking advantage of Large Language Models as components in a system before our main limitation becomes the sophistication of the model itself.
 
 ## Lightning round
 
@@ -51,13 +51,18 @@ Let's give some initial takes on the impact to AI coding workflows for each of t
 | GPT Store | 🤷🤷 | Maybe more useful for coding adjacent tools, see Kyle's section below |
 | Copyright Shield | 🤷🤷🤷 | Their legal strategy will have... *ramifications* |
 
+
 # Looking deeper
 
 ## **128K** context 👾👾👾👾👾
 
 This gets the maximum score of 5 space invadors.
 
-We'll follow up with more later, but for instance this video from April [Generating Documentation with GPT AI](https://youtu.be/DJ2-Xfd95YM) had as it's main theme the difficulty of getting an LLM agent to reason about a single 8,000 line [source file](https://github.com/videogamepreservation/dukenukem3d/blob/master/SRC/ENGINE.C) from Duke Nukem 3D. That file now fits in a single (expensive) prompt! So do some entire books. The types of inference we can do using the state of the art model has just drastically changed. We look forward to seeing how well the performance holds up in extended context because previous methods in the research have usually had caveats.
+We'll follow up with more later, but for instance this video from April, [Generating Documentation with GPT AI](https://youtu.be/DJ2-Xfd95YM), had as it's main theme the difficulty of getting an LLM agent to reason about a single 8,000 line [source file](https://github.com/videogamepreservation/dukenukem3d/blob/master/SRC/ENGINE.C) from Duke Nukem 3D. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DJ2-Xfd95YM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+That dreaded file now fits in a single (expensive) prompt! So do some entire books. Our options for inference using the state of the art model have just drastically changed. We look forward to seeing how well the performance holds up in extended context because previous methods in the research have usually had caveats.
 
 ## Price drop! 👾👾👾👾
 
@@ -69,7 +74,7 @@ Deciding when to use 3.5-Turbo vs the premium 4 vs a fine-tuned 3.5 has been a j
 
 ## Updated cutoff date
 
-Training now includes data from April 2023 instead of January 2022. This is a potential game changer for general use of ChatGPT, but for coding tasks you should consider controling context more carefully with [Retrieval Augmented Generation (RAG)](https://www.promptingguide.ai/techniques/rag) anyway, as [Cursor](https://cursor.sh) does.
+Training now includes data up to April 2023 instead of January 2022. This is huge for general use of ChatGPT, but for coding tasks you should consider controling context more carefully with [Retrieval Augmented Generation (RAG)](https://www.promptingguide.ai/techniques/rag), as [Cursor](https://cursor.sh) does.
 
 ### Whisper v3 and Consistency Decoder
 
@@ -77,7 +82,7 @@ Better speech recognition models will always be good news for speech driven tool
 
 ### New modalities in the API
 
-These are worth mentioning, but don't seem aimed at coding as we normally understand it. Perhaps for front end and UX design though?
+These are worth mentioning, but don't seem aimed at coding as we normally understand it. Perhaps for front-end devs and UX design though?
 
 * GPT-4 Turbo vision
 * DALL·E 3
