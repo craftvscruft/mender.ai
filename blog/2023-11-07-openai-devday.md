@@ -37,7 +37,6 @@ Let's give some initial takes on the impact to AI coding workflows for each of t
 | Speed            | 👾👾       | This makes GPT-4 more of a contender for interactive coding assistants |
 | Assistants API | 👾👾 | Saves a lot of boilerplate for new chatbots |
 | Retrieval API | 👾👾 | Again, we could do this ourselves but now it's easy |
-| Assistants API | 👾👾 | Saves a lot of boilerplate for new chatbots |
 | Updated cutoff date | 👾 | Probably more important outside coding |
 | Log probabilities | 👾 | Should help with autocomplete features|
 
