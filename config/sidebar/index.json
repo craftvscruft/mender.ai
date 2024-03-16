@@ -25,19 +25,54 @@
       "_template": "category"
     },
     {
-      "title": "Tool Catalog",
+      "title": "AI Tools",
       "link": "generated",
       "items": [
         {
-          "document": "docs/tools/intro.mdx",
+          "document": "docs/tools/ai/assistants.mdx",
           "_template": "doc"
         },
         {
-          "document": "docs/tools/ai.mdx",
+          "document": "docs/tools/ai/agents.mdx",
           "_template": "doc"
         },
         {
-          "document": "docs/tools/conventional.mdx",
+          "document": "docs/tools/ai/models.mdx",
+          "_template": "doc"
+        },
+        {
+          "document": "docs/tools/ai/insight.mdx",
+          "_template": "doc"
+        },
+        {
+          "document": "docs/tools/ai/test-gen.mdx",
+          "_template": "doc"
+        },
+        {
+          "document": "docs/tools/ai/structured-output.mdx",
+          "_template": "doc"
+        },
+        {
+          "document": "docs/tools/ai/paradigms.mdx",
+          "_template": "doc"
+        }
+      ],
+      "_template": "category"
+    },
+    {
+      "title": "Conventional Tools",
+      "link": "generated",
+      "items": [
+        {
+          "document": "docs/tools/conventional/static-analysis.mdx",
+          "_template": "doc"
+        },
+        {
+          "document": "docs/tools/conventional/documentation.mdx",
+          "_template": "doc"
+        },
+        {
+          "document": "docs/tools/conventional/translation.mdx",
           "_template": "doc"
         }
         ],
