@@ -6,6 +6,10 @@ See the [manifesto](https://mender.ai/docs/intro) for what this is all about. Th
 
 This website is built using [Docusaurus 2](https://docusaurus.io/).
 
+## Requirements
+
+* Node 18.x
+
 ### Installation
 
 ```
