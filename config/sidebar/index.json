@@ -45,10 +45,6 @@
           "_template": "doc"
         },
         {
-          "document": "docs/tools/ai/test-gen.mdx",
-          "_template": "doc"
-        },
-        {
           "document": "docs/tools/ai/structured-output.mdx",
           "_template": "doc"
         },
