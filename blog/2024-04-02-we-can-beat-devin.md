@@ -124,6 +124,15 @@ What does this sea of potential competitors mean for AI startups like Cognition?
 
 > Extended constituencies have minds of their own, which can be inconvenient if you didn’t plan with them in mind. But long term, they can multiply your success—if you harness their energy and reward their efforts.
 
+## When rubber meets the road
+
+At the end of the day, we're here to deliver value, not just funding rounds and clicks. There are problems left to solve before we can fully operationalize these tools.
+
+DevOps pioneer John Willis offers a much needed reality check in his article
+[To Devin or Not to Devin](https://devops.com/to-devin-or-not-to-devin), balancing his optimism with past lessons from robotic process automation (RPA) and his work on Chef infra management. Worth a read!
+
+> One of Devin's most intriguing aspects is its autonomous operation through its shell code editor and web browser. [...] However, as a software engineer with 45 years of experience, I take these claims with a hefty chaser of skepticism. Devin.ai may introduce many security concerns, especially when dealing with sensitive information or performing actions on services, databases and APIs, as well as the handling of sensitive information and the potential for unintended actions. [...] While I’m not against AI, I am cautious about Devin’s potential to replace human full-stack software engineers.
+
 And as of press time, Lao Tzu said:
 
 > With patience the most tangled cord may be undone.
