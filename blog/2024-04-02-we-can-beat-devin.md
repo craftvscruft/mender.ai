@@ -99,7 +99,8 @@ Again, we must be careful of the terminology: Most Open Weight models are not Op
 ## Who are the players?
 Here are some of the projects in the conversation right now.
 * [SWE-agent](https://swe-agent.com) - The benchmark leader
-* [OpenDevin](https://github.com/OpenDevin/OpenDevin) - The de facto leader for Open Source Devin-like UX
+* [OpenDevin](https://github.com/OpenDevin/OpenDevin) - An early front-runner for Open Source Devin-like UX, along with Devika
+* [Devika](https://github.com/stitionai/devika)
 * [Mirko.AI](https://github.com/markokraemer/mirko.ai) - An Open Source re-write of the Softgen.AI demo by Marko Kraemer
 * [OpenAgents](https://github.com/OpenAgentsInc/openagents)
 * [Aider](https://github.com/paul-gauthier/aider)
