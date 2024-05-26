@@ -117,6 +117,8 @@ const config = {
         blog: {
           showReadingTime: true,
           editUrl: docusaurusData.url + "/admin/#/collections/post",
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
